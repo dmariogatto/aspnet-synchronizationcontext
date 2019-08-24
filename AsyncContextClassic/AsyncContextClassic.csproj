@@ -85,8 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\ValuesStandardController.cs" />
-    <Compile Include="Controllers\ValuesFullController.cs" />
+    <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -106,9 +105,9 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AsyncContextNetFull\AsyncContextNetFull.csproj">
+    <ProjectReference Include="..\AsyncContextNetFramework\AsyncContextNetFramework.csproj">
       <Project>{4DB92A1F-61E7-4379-9C4E-4C3DD5D28874}</Project>
-      <Name>AsyncContextNetFull</Name>
+      <Name>AsyncContextNetFramework</Name>
     </ProjectReference>
     <ProjectReference Include="..\AsyncContextNetStandard\AsyncContextNetStandard.csproj">
       <Project>{E57897B3-0AAD-4674-A770-2A330A7C1B32}</Project>

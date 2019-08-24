@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace AsyncContextNetFull
+namespace AsyncContextNetFramework
 {
-    public class AsyncServiceNetFull
+    public class AsyncServiceNetFramework
     {
         public async Task AsyncMethod(bool configAwait = true)
         {

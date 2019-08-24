@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncContextClassic", "Asyn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncContextNetStandard", "AsyncContextNetStandard\AsyncContextNetStandard.csproj", "{E57897B3-0AAD-4674-A770-2A330A7C1B32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncContextNetFull", "AsyncContextNetFull\AsyncContextNetFull.csproj", "{4DB92A1F-61E7-4379-9C4E-4C3DD5D28874}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncContextNetFramework", "AsyncContextNetFramework\AsyncContextNetFramework.csproj", "{4DB92A1F-61E7-4379-9C4E-4C3DD5D28874}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
